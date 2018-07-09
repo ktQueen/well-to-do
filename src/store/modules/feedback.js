@@ -20,7 +20,7 @@ const actions = {
 // mutations
 const mutations = {
   [types.CHANGE_EXAMPLE](state) {
-    state.example = true;
+    state.example = !state.example;
   }
 };
 

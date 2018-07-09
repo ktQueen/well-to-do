@@ -1,0 +1,14 @@
+﻿//px转换rem $px为需要转换的字号
+@function strip-units($number){ 
+  @return $number / ($number * 0 + 1); 
+} 
+$base-font-size: 16px !default; 
+@function pxToem($target-size,$context:$base-font-size){
+  @if not unitless($target-size){ 
+    $target-size: strip-units($target-size); 
+  } 
+  @if not unitless($context){ 
+    $context: strip-units($context); 
+  } 
+  @return ($target-size / $context) * .375rem; 
+}

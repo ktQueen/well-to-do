@@ -1,1 +1,1 @@
-export const CHANGE_EXAMPLE = 'CHANGE_EXAMPLE'
+export const CHANGE_EXAMPLE = 'CHANGE_EXAMPLE';

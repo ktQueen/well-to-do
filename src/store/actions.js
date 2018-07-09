@@ -1,1 +1,3 @@
-export const mainActionMethod = ({ commit }) => {}
+export const mainActionMethod = ({commit}) => {
+  console.log(commit);
+};
