@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <framework></framework>
   </div>
 </template>
 
 <script>
-import Hello from './views/Hello';
+import Framework from './framework/Index';
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Framework
   }
 };
 </script>
 
 <style>
 #app {
-  font-family: \.PingFangSC-Light,Helvetica Neue,Helvetica,Arial,PingFang SC,Heiti SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+  width: 100%;
+  height: 100%;
 }
 </style>
