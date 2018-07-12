@@ -9,7 +9,7 @@ export default {
   name: 'hello',
   data() {
     return {
-      msg: '欢迎使用vue-common模板'
+      msg: 'hello,kt'
     };
   }
 };

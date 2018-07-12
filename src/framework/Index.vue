@@ -6,14 +6,19 @@
     <div class="body-wrap">
       <router-view class="body-container"></router-view>
     </div>
-    <!--底部組件-->
-    <div class="foot-wrap">footer</div>
+    <!--底部组件-->
+    <foot class="foot-wrap"></foot>
   </div>
 </template>
 
 <script>
+  // 底部组件
+  import Foot from '@/framework/Foot';
   export default {
-    name: 'framework'
+    name: 'framework',
+    components: {
+      Foot
+    }
   };
 </script>
 
