@@ -11,7 +11,7 @@ module.exports = {
   cssSourceMap: false, //是否开启 cssSourceMap
   proxyTable: { //需要 proxyTable 代理的接口（可跨域）
     // '/api/**': {
-    //   target: 'https://bj.daojia.com/',//代理地址
+    //   target: '',//代理地址
     //   changeOrigin: true
     // }
   }

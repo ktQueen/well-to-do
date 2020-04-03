@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "小康超市",
   "author": "kt",
-  "daojia-template": "vue-common",
-  "daojia-template-version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
